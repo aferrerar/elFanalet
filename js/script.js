@@ -542,11 +542,11 @@ function updateTheme() {
       enableStyleSheet(styleSheet, false);
     });
 
-  //if (darkMode.checked) {
+  if (darkMode.checked) {
     enableStyleSheet(darkSS, true);
-  //} else {
-  //  enableStyleSheet(lightSS, true);
-  //}
+  } else {
+    enableStyleSheet(lightSS, true);
+  }
 }
 
 function enableStyleSheet(node, enabled) {
