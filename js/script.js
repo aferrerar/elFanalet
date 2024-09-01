@@ -510,13 +510,13 @@ function getFullId(shortId) {
 
 function logMsg(text) {
   // Update the Log
-  if (showTimestamp.checked) {
+  //if (showTimestamp.checked) {
     let d = new Date();
     let timestamp = d.getHours() + ":" + `${d.getMinutes()}`.padStart(2, 0) + ":" +
         `${d.getSeconds()}`.padStart(2, 0) + "." + `${d.getMilliseconds()}`.padStart(3, 0);
     log.innerHTML += '<span class="timestamp">' + timestamp + ' -> </span>';
     d = null;
-  }
+  //}
   log.innerHTML += text+ "<br>";
 
   // Remove old log content
@@ -525,9 +525,9 @@ function logMsg(text) {
     log.innerHTML = logLines.splice(-maxLogLength).join("<br>\n");
   }
 
-  if (autoscroll.checked) {
+  //if (autoscroll.checked) {
     log.scrollTop = log.scrollHeight
-  }
+  //}
 }
 
 /**
@@ -542,11 +542,11 @@ function updateTheme() {
       enableStyleSheet(styleSheet, false);
     });
 
-  if (darkMode.checked) {
+  //if (darkMode.checked) {
     enableStyleSheet(darkSS, true);
-  } else {
-    enableStyleSheet(lightSS, true);
-  }
+  //} else {
+  //  enableStyleSheet(lightSS, true);
+  //}
 }
 
 function enableStyleSheet(node, enabled) {
