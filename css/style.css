@@ -12,7 +12,11 @@
   width: 100%;
   z-index: 1000;
   margin: 0;
+<<<<<<< HEAD
   border-bottom: 5px solid #0a0000;
+=======
+  border-bottom: 5px solid #010e13;
+>>>>>>> parent of 684c9ea (Revert "v3")
 }
 
 .header h1 {
