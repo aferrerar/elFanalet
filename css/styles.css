@@ -1,0 +1,66 @@
+.fanalet-icon {
+    font-size: 50px;
+}
+
+.widget-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget {
+    margin: 10px;
+}
+
+/* HEAD */
+.navbar {
+    background-color: #000;
+    height: 100px; /* Adjust the height as needed */
+    padding: 0 20px; /* Remove any default padding */
+}
+
+.navbar-brand img {
+    height: 70px; /* Adjust the logo size */
+    margin: auto 0; /* Center the logo vertically */
+}
+
+.navbar .container-fluid {
+    height: 100%; /* Ensure the container takes the full height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+}
+
+#scan-button {
+    height: 40px; /* Adjust the button height */
+    font-size: 18px; /* Adjust the button text size */
+    padding: 0 20px; /* Adjust padding to match the new size */
+}
+
+/* MAIN */
+.main-content {
+    background-color: #343a40; /* Dark grey background */
+    color: #fff; /* Optional: White text for contrast */
+    min-height: 600px; /* Ensure some minimum height for the content area */
+    padding: 5px; /* Optional: Add padding for spacing */
+}
+
+.fanalet-icon {
+    font-size: 5rem; /* Adjust this value for your desired size */
+    color: #ffc107;  /* Optional: Change the color of the icon */
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #000;
+    height: 200px; /* Same height as the header */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+.footer .container-fluid {
+    height: 100%; /* Ensure the container takes the full height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center content horizontally */
+}
